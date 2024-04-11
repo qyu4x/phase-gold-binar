@@ -8,3 +8,5 @@ function findProductById(callback) {
 findProductById((data) => {
     console.log(data)
 })
+
+console.log("done...")

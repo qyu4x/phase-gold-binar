@@ -20,6 +20,7 @@ function findProductById() {
 const findProductRequest = async () => {
     try {
         const data = await findProductById();
+        console.log("test data")
         console.log(typeof data)
         console.log(data) // jika ingin di return lagi, tolong handle dengan await/ then, try catch
     }catch (error) {
